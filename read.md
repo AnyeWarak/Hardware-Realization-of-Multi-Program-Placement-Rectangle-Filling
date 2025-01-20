@@ -1,0 +1,1 @@
+When the simulation clock (testbench clock) is too fast, it cannot complete a full simulation due to process technology limitations. After verification, we have confirmed that the simulation works correctly when the testbench clock is set to 1.1ns or higher. Therefore, we recommend using a 2ns clock period for the testbench.
